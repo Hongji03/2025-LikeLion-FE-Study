@@ -1,0 +1,41 @@
+body {
+    width: 1250px;
+    height: 100vh;
+    margin: 0 auto;  /*위아래 양옆*/
+}
+
+header {
+    height: 100px;
+    background-color: #DE7D86;
+}
+
+.main1 {
+    height: 450px;
+}
+
+.main2 {
+    display: flex;
+}
+
+.main2>.left {
+    width: 416px;
+    height: 430px;
+    background-color: #FFC5C5;
+}
+
+.main2>.middle {
+    width: 418px;
+    height: 430px;
+    background-color: #FFA3A3;
+}
+
+.main2>.right {
+    width: 416px;
+    height: 430px;
+    background-color: #54D8DC;
+}
+
+footer {
+    height: 100px;
+    background-color: #6E6875;
+}
