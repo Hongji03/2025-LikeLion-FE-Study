@@ -1,0 +1,55 @@
+.center {
+    width: 1250px;
+    height: 100vh;
+    margin: 0 auto;  /*위아래 양옆*/
+}
+
+header *{  /* "*"은 전체 */
+    height: 100px;
+}
+
+header {
+    display: flex;
+}
+
+header>.left {
+    width: 250px;
+    background-color: #EEEEE9;
+}
+
+header>.right {
+    width: 1000px;
+    background-color: #D5CCC2;
+}
+
+main>.sc1 {
+    width: 1250px;
+    height: 440px;
+    background-color: #F5ECE1;
+}
+
+main>.sc2 *{
+    height: 440px;
+}
+
+main>.sc2 {
+    display: flex;
+}
+
+.sc2 .left, .sc2 .right {
+    width: 50%;
+}
+
+.sc2>.left {
+    background-color: #E4D6CA;
+}
+
+.sc2>.right {
+    background-color: #D5BEB1;
+}
+
+footer {
+    width: 1250px;
+    height: 100px;
+    background-color: #D6CCC2;
+}
