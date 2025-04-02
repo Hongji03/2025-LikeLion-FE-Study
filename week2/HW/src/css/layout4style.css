@@ -1,0 +1,58 @@
+#wrap {
+    margin: 40px 365px;
+    position: relative;
+}
+
+.hori {
+    display: flex;
+}
+
+.one_left {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.one_right {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    left: 1000px;
+}
+
+.two {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.three {    
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+}
+
+.four {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    left: 600px;
+    top: 600px;
+}
+
+.five {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    left: 800px;
+    top: 800px;
+}
