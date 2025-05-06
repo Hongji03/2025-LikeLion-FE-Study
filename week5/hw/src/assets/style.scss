@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'NanumSquareNeoVariable';
+    font-weight: normal;
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.ttf) format("truetype");
+}
+
+body {
+    background-color: #92CAFF;
+    font-family: 'NanumSquareNeoVariable';
+}
+
+button {
+    cursor: pointer;
+}
+
+.todolist_wrap {
+    width: 600px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.title {
+    text-align: center;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+.add {
+    display: flex;
+    position: relative;
+    margin-top: 17px;
+}
+
+.addvalue {
+    width: 580px;
+    height: 50px;
+    padding: 10px;
+    padding-left: 35px;
+    outline: none;
+    font-size: 18px;
+}
+
+#addbtn {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #00000000;
+    border: 0;
+}
+
+main{
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.empty-message {
+    text-align: center;
+    font-size: 18px;
+    color: #A3A3A3;
+}
+
+main .list{
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    height: 100%;
+    border-bottom: 2px solid #92CAFF;
+}
+
+.list .box{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    width: 80%;
+    color: #3F6181;
+}
+
+.box input{
+    display: none;
+}
+
+.box img{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.box div[name='checkbox']+label{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+.box div[name='checkbox']:checked+label::after{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    top: 0;
+}
+
+.list button {
+    background-color: #00000000;
+    border: 0;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.list button img{
+    width: 15px;
+    height: 15px;
+}
