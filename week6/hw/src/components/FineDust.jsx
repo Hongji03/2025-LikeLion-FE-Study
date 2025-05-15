@@ -5,9 +5,10 @@ const FineDust = () => {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
 
-  const serviceKey = '여기에_본인_서비스키'; // 인코딩되지 않은 키
+  const serviceKey = process.env.REACT_APP_API_KEY; // 인코딩되지 않은 키
+  console.log("키 확인:", serviceKey);
   const stationName = '분당구';
-  const url = `/B552584/UlfptcaAlarmInqireSvc`;
+  const url = `/B552584/ArpltnInforInqireSvc/getCtprvnRltmMesureDnsty`;
 
   // 등급 계산 함수
   const getGrade = (value, type) => {
@@ -42,9 +43,11 @@ const FineDust = () => {
             ver: '1.0',
           },
         });
+        console.log("API 응답 전체:", response.data);
         setData(response.data.response.body.items[0]);
       } catch (err) {
         setError('데이터를 불러오는 중 오류가 발생했습니다.');
+        console.log(err);
       }
     };
 
