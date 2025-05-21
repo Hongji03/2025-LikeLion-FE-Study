@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'NanumSquareNeoVariable';
+    font-weight: normal;
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.ttf) format("truetype");
+}
+
+body {
+    background-color: #92CAFF;
+    font-family: 'NanumSquareNeoVariable';
+}
+
+button {
+    cursor: pointer;
+}
+
+#wrap {
+    width: 600px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+.add {
+    text-align: center;
+    position: relative;
+}
+
+.text {
+    width: 580px;
+    height: 50px;
+    padding: 10px;
+    outline: none;
+}
+
+#addbtn {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0;
+    background-color: #ffffff00;
+}
+
+main {
+    width: 520px;
+    padding: 40px;
+    margin-top: 20px;
+    background-color: #FFF;
+}
+
+.todo_item {
+    display: flex;
+    border-bottom: 2px solid #92CAFF;
+    position: relative;
+    justify-content: space-between;
+}
+
+.todo_item>div {
+    display: flex;
+}
+
+#delete {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0;
+    background-color: #ffffff00;
+}
+
+p {
+    color: #3F6181;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list div {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    width: 80%;
+    color: #3F6181;
+}
+
+.list div p {
+    width: 80%;
+}
+
+/* input[type="checkbox"] {
+    display: none;
+} */
+
+input[type="checkbox"]+label {
+    cursor: pointer;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #92CAFF;
+    border-radius: 5px;
+    position: relative;
+    margin-right: 10px;
+}
+
+#checklabel {
+    cursor: pointer;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #92CAFF;
+    border-radius: 5px;
+    position: relative;
+    margin-right: 10px;
+}
+
+input[type="checkbox"]:checked+label::after {
+    content: '✓';
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    top: 0;
+    text-align: center;
+    color: #fff;
+    background-color: #92CAFF;
+}
+
+.list button {
+    background-color: #00000000;
+    border: 0;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.list button img {
+    width: 15px;
+    height: 15px;
+}

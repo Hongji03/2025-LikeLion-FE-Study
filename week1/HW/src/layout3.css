@@ -1,0 +1,112 @@
+body {
+    width: 1250px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+}
+
+header>.left {
+    width: 200px;
+    height: 100px;
+    background-color: #CCCCCC;
+}
+
+header>.right {
+    width: 1050px;
+    height: 100px;
+    background-color: #3B5A42;
+}
+
+main {
+    /* display: flex; */
+    padding: 50px 50px 55px 50px;
+    background-color: #DCD7CB;
+}
+
+.main1 {
+    display: flex;
+}
+
+.main1>.left {
+    display: flex;
+    width: 700px;
+    height: 400px;
+    position: relative;
+}
+
+.main1>.left>.top {
+    position: absolute;
+    width: 700px;
+    height: 190px;
+    margin-bottom: 20px;
+}
+
+.main1>.left>.bottom {
+    position: absolute;
+    top: 50%;
+    width: 700px;
+    height: 190px;
+}
+
+.main1>.right {
+    display: flex;
+    margin-left: 50px;
+    width: 400px;
+    height: 400px;
+}
+
+.main2 {
+    display: flex;
+    margin-top: 55px;
+}
+
+.main2>.left {
+    width: 496px;
+    height: 320px;
+    position: relative;
+}
+
+.main2>.left>.top {
+    position: absolute;
+    display: flex;
+    width: 496px;
+    height: 150px;
+}
+
+.main2>.left>.bottom {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    width: 496px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.main2>.left>.top>.one, .main2>.left>.bottom>.four {
+    width: 150px;
+    height: 150px;
+    background-color: #A1B189;
+}
+
+.main2>.left>.top>.two, .main2>.left>.top>.three, .main2>.left>.bottom>.five, .main2>.left>.bottom>.six {
+    width: 150px;
+    height: 150px;
+    background-color: #A1B189;
+    margin-left: 23px;
+}
+
+.main2>.right {
+    width: 615px;
+    height: 320px;
+    background-color: #588158;
+    border: 1px solid #000000;
+    margin-left: 39px;
+}
+
+footer {
+    height: 100px;
+    background-color: #334E41;
+}

@@ -1,0 +1,173 @@
+#wrap {
+    width: 1250px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+}
+
+.logo {
+    width: 250px;
+    height: 100px;
+    background-color: #54D8DC;
+}
+
+.nav {
+    width: 1000px;
+    height: 100px;
+    background-color: #86DADC;
+}
+
+main {
+    display: flex;
+    width: 1247px;
+}
+
+main *{
+    height: 880px;
+    width: 100%;
+}
+
+.main_left {
+    width: 415px;
+    height: 880px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.main_middle, .main_right {
+    width: 416px;
+    height: 880px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.img_thumbnail {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer {
+    display: flex;
+}
+
+.footer_left {
+    width: 250px;
+    height: 100px;
+    background-color: #FDE1E0;
+}
+
+.footer_right {
+    display: static;
+}
+
+.right_top {
+    width: 1000px;
+    height: 50px;
+    background-color: #FECECE;
+}
+
+.right_bottom {
+    width: 1000px;
+    height: 50px;
+    background-color: #FDB2B5;
+}
+
+@media (max-width: 680px) {
+    #wrap {
+        width: 100%;
+    }
+
+    header {
+        display: block;
+        height: 200px;
+    }
+
+    main {
+        display: block;
+        height: 680px;
+    }
+
+    footer {
+        display: block;
+        height: 200px;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .nav {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+        height: 680px;
+    }
+
+    .main_left, .main_right {
+        width: 100%;
+        height: 225px;
+        overflow: hidden;
+    }
+
+    .main_middle {
+        width: 100%;
+        height: 230px;
+        overflow: hidden;
+    }
+
+    .img_thumbnail {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .footer_left {
+        width: 100%;
+        height: 100px;
+    }
+
+    .right_top, .right_bottom {
+        width: 100%;
+        height: 50px;
+    }
+}
+
+@media (max-width: 450px) {
+    #wrap {
+        width: 100%;
+    }
+
+    header {
+        display: block;
+        height: 200px;
+    }
+
+    main {
+        display: block;
+        height: 680px;
+    }
+
+    .main_left, .main_middle {
+        width: 100%;
+        height: 340px;
+    }
+
+    .main_right {
+        display: none;
+    }
+
+    .footer_left {
+        width: 100%;
+        height: 200px;
+    }
+
+    .footer_right {
+        display: none;
+    }
+}
