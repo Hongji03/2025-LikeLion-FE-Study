@@ -1,0 +1,44 @@
+button,
+a {
+    cursor: pointer;
+    background-color: var(--none);
+}
+
+body {
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#root {
+    width: 100%;
+}
+
+.container_w {
+    padding-top: 112px;
+    min-width: 1600px;
+    min-height: calc(100vh - 222px);
+}
+
+.container_m {
+    padding-top: 47px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 393px;
+    min-height: calc(100vh - 222px);
+    margin: 0 auto;
+    background-color: var(--black);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.none {
+    display: none !important;
+}
+
+input {
+    outline: none;
+}
