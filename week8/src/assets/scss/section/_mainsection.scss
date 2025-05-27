@@ -1,0 +1,407 @@
+.Nav_wrap {
+    width: 100%;
+    height: 120px;
+    background-color: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 50px;
+    position: absolute;
+    z-index: 100;
+
+    img {
+        cursor: pointer;
+    }
+
+    .logo {
+        width: 100px;
+        height: 33.96px;
+    }
+
+    ul {
+        display: flex;
+        color: #fff;
+
+        li {
+            cursor: pointer;
+            font-weight: 600;
+            margin-right: 17px;
+        }
+
+        p {
+            margin-left: 4px;
+            margin-right: 21px;
+        }
+    }
+
+    .nav_btn {
+        width: 29px;
+        height: 29px;
+        margin-right: 24px;
+    }
+}
+
+.Section01_wrap {
+    position: relative;
+    width: 100%;
+    height: 950px;
+    z-index: 1;
+
+    .slick-slide {
+        position: relative;
+
+        img {
+            width: 100%;
+            height: 950px;
+            object-fit: cover;
+        }
+
+        .banner-text {
+            position: absolute;
+            bottom: 150px;
+            left: 177px;
+            color: #fff;
+
+            h1 {
+                font-size: 36px;
+                font-weight: bold;
+            }
+
+            button {
+                margin-top: 20px;
+                padding: 12px 24px;
+                font-size: 16px;
+                background-color: transparent;
+                border: 2px solid #fff;
+                border-radius: 500px;
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .custom-nav {
+        position: absolute;
+        bottom: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 1500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 177px;
+        padding-right: 138.81px;
+
+        .nav-bar {
+            display: flex;
+            flex-grow: 1;
+            margin-right: 28px;
+
+            .bar-segment {
+                flex: 1;
+                height: 4px;
+                background-color: #fff;
+                opacity: 0.3;
+
+                &.active {
+                    opacity: 1;
+                }
+            }
+        }
+
+        .arrow-group {
+            display: flex;
+            gap: 32px;
+            margin-left: 24px;
+
+            .arrow-icon {
+                width: 24px;
+                height: 24px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.Section02_wrap {
+    width: 100%;
+    padding: 50px;
+    margin-top: 84px;
+
+    h2 {
+        text-align: center;
+        font-size: 34px;
+    }
+
+    .tags {
+        width: 673px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 27px;
+        margin-bottom: 70px;
+        text-align: center;
+    }
+
+    .tag {
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    .tag_bold {
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration-line: underline;
+    }
+
+    .slick-slide {
+        padding: 0 10px;
+    }
+
+    .product {
+        .product-card {
+            overflow: hidden;
+            background: #fff;
+            text-align: left;
+            font-size: 14px;
+
+            img {
+                width: 100%;
+                aspect-ratio: 3 / 4; // 이미지 비율 유지
+                object-fit: cover;
+            }
+
+            .product-info {
+                padding: 10px;
+
+                .product-tags {
+                    font-size: 12px;
+                    font-weight: bold;
+                    color: #979797;
+                    display: flex;
+                    gap: 6px;
+                    margin-bottom: 6px;
+                }
+
+                .product-name {
+                    margin-bottom: 6px;
+                    font-weight: bold;
+                }
+
+                .last_row {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .product-price {
+                        font-weight: 500;
+                    }
+
+                    .favo {
+                        width: 18px;
+                        height: 18px;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .slick-prev,
+    .slick-next {
+        z-index: 1;
+    }
+}
+
+.Section03_wrap {
+    width: 100%;
+    margin-top: 167px;
+    padding: 0 101px;
+
+    h2 {
+        text-align: center;
+        font-size: 34px;
+    }
+
+    .offer_list {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 51px;
+
+        .offer {
+            width: 800px;
+            justify-content: center;
+            text-align: center;
+
+            img {
+                width: 100%;
+            }
+
+            p {
+                text-align: center;
+                margin-top: 39px;
+                font-size: 34px;
+                font-weight: bold;
+            }
+
+            button {
+                margin-top: 97px;
+                padding: 12px 24px;
+                font-size: 16px;
+                background-color: transparent;
+                border: 2px solid #C9C9C9;
+                border-radius: 500px;
+                color: #000;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.Section04_wrap {
+    width: 100%;
+    margin-top: 193px;
+    padding: 0 101px;
+    margin-bottom: 216px;
+
+    .fila {
+        font-size: 34px;
+        font-weight: bold;
+        text-align: end;
+    }
+
+    .photos {
+        height: 330px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 19px;
+
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.Footer_wrap {
+    background-color: #EEEEEE;
+    padding: 45px;
+
+    .logo {
+        width: 100px;
+        margin-left: 6px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 230px;
+        padding-top: 80px;
+
+        .footer_left {
+            .links {
+                display: flex;
+                margin-right: 5px;
+                font-size: 15px;
+                font-weight: bold;
+                cursor: pointer;
+
+                p {
+                    margin: 0 10px;
+                    color: #A7A9A7;
+                }
+            }
+
+            .company_info {
+                margin-top: 50px;
+                color: #A7A9A7;
+
+                p {
+                    font-size: 15px;
+
+                    span {
+                        font-size: 13px;
+                        text-decoration-line: underline;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .legal_links {
+                display: flex;
+                margin-right: 5px;
+                margin-top: 50px;
+                font-size: 15px;
+                font-weight: bold;
+                cursor: pointer;
+
+                p {
+                    margin: 0 10px;
+                    color: #A7A9A7;
+                }
+            }
+        }
+
+        .footer_right {
+            margin-left: 50px;
+
+            .cs_button {
+                padding: 6px 20px;
+                font-size: 16px;
+                font-weight: bold;
+                background-color: transparent;
+                border: 2px solid #000;
+                border-radius: 500px;
+                color: #000;
+                cursor: pointer;
+            }
+
+            .cs_phone {
+                font-size: 40px;
+                font-weight: bold;
+                margin-top: 30px;
+            }
+
+            .cs_email {
+                font-size: 40px;
+                font-weight: bold;                
+            }
+
+            .cs_hours {
+                margin-top: 27px;
+                color: #A7A9A7;
+            }
+
+            .right_bottom {
+                display: flex;
+                margin-top: 90px;
+                justify-content: space-between;
+                align-items: center;
+
+                .country {
+                    font-weight: 500;
+
+                    img {
+                        width: 24px;
+                        height: 18px;
+                        margin-top: 4px;
+                    }
+
+                    span {
+                        margin-left: 10px;
+                    }
+                }
+
+                span {
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
