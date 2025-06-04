@@ -1,0 +1,74 @@
+#wrap {
+    justify-content: flex-start;
+    background-color: #F6F6F9;
+}
+
+.menu_bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.more_btn {
+    width: 24px;
+    height: 24px;
+    margin-left: 31px;
+    margin-top: 61px;
+}
+
+.bell_btn {
+    width: 24px;
+    height: 24px;
+    margin-right: 30px;
+    margin-top: 61px;
+}
+
+h2 {
+    width: 100%;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: start;
+    color: var(--black);
+    margin-top: 14px;
+    margin-left: 31px;
+}
+
+.total_asset {
+    width: 354px;
+    height: 125px;
+    background-color: #31A078;
+    border-radius: 20px;
+    border: none;
+    margin: 0 auto;
+}
+
+.asset_text {
+    font-size: 16px;
+    color: var(--white);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.asset_bottom {
+    display: flex;
+}
+
+.number {
+    font-size: 32px;
+    color: var(--white);
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 68px;
+}
+
+.invest_btn {
+    padding: 11px 34px;
+    background-color: var(--white);
+    font-size: 14px;
+    color: #31A078;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+

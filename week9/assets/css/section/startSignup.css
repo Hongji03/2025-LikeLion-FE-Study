@@ -1,0 +1,41 @@
+.main_img {
+    width: 300px;
+    height: 273.23px;
+    align-items: center;
+    margin-top: 154px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 38.77px;
+    color: #000;
+}
+
+.explain {
+    color: var(--titlegray);
+    font-size: 17px;
+    text-align: center;
+    margin-top: 11px;
+}
+
+.create_btn {
+    padding: 20px 110px;
+    background-color: var(--main01);
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    margin-top: 101px;
+    border-radius: 20px;
+    border: none;
+}
+
+.login_btn {
+    cursor: pointer;
+    color: var(--main01);
+    text-align: center;
+    margin-top: 17px;
+    align-items: center;
+    font-weight: 600;
+}
