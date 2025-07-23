@@ -1,0 +1,131 @@
+#wrap {
+    justify-content: flex-start;
+    background-color: #F6F6F9;
+}
+
+.back_btn {
+    margin-top: 68px;
+    margin-left: 29px;
+    width: 6px;
+    height: 12px;
+}
+
+.back_btn img {
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    font-size: 34px;
+    font-weight: bold;
+    color: var(--black);
+    margin-top: 23px;
+    margin-left: 30px;
+}
+
+.user_info {
+    display: block;
+    margin-top: 26px;
+    margin-left: 132px;
+}
+
+.user_info img {
+    width: 150px;
+    height: 150px;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--black);
+    margin-top: 21px;
+    margin-left: 1.5px;
+}
+
+.job {
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--black);
+    margin-left: 48.5px;
+}
+
+.settings {
+    margin-top: 29px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.setting_item {
+    display: flex;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: var(--white);
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+}
+
+.item_left {
+    display: flex;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+}
+
+.item_text {
+    margin-left: 36px;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--lightblack);
+}
+
+.arrow {
+    width: 6px;
+    height: 12px;
+    margin-right: 23px;
+}
+
+/* 바텀 네비게이션 바 */
+.btm_nav {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    margin-bottom: 6px;
+    transform: translateX(-50%);
+    width: 415px;
+    height: 75px;
+    background-color: #F6F6F9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+}
+
+.select_nav, .unselect_nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.select_nav {
+    color: var(--main);
+}
+
+.unselect_nav {
+    color: var(--gray01);
+}
+
+.btm_nav img {
+    width: 24px;
+    height: 24px;
+}
+
+.nav_name {
+    font-size: 12px;
+    font-weight: 300;
+}
