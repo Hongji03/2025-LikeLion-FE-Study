@@ -1,0 +1,89 @@
+#wrap {
+    justify-content: flex-start;
+    background-color: #F6F6F9;
+}
+
+.top_bar {
+    display: flex;
+    margin-top: 63px;
+    margin-left: 29px;
+    align-items: center;
+}
+
+.back_btn {
+    width: 6px;
+    height: 12px;
+    cursor: pointer;
+}
+
+h3 {
+    margin-left: 125px;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.edit_profile {
+    display: flex;
+    margin-top: 49px;
+    margin-left: 132px;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 50%;
+    background-image: url('../../img/png/user_black_img.png');
+    cursor: pointer;
+}
+
+.edit_profile img {
+    width: 24px;
+    height: 24px;
+}
+
+.input_area {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.title {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--lightblack);
+}
+
+.input {
+    display: flex;
+    margin-top: 4px;
+    justify-content: space-between;
+    border-bottom: 0.5px solid var(--black);
+}
+
+.text {
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--lightblack);
+}
+
+.change_btn {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--main01);
+    cursor: pointer;
+    margin-right: 16px;
+}
+
+.phone, .address {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--lightblack);
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.phone .text {
+    border-bottom: 0.5px solid var(--black);
+}
