@@ -17,11 +17,11 @@ body {
 
 .container {
     width: 414px;
-    height: 932px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
-    align-items: center;
+    /* align-items: center; */
     background-color: #fff;
 }
 

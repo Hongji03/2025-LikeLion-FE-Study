@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tenor+Sans&display=swap');
+
 #wrap {
     justify-content: flex-start;
     background-color: #F6F6F9;
@@ -24,29 +26,36 @@
 }
 
 h2 {
-    width: 100%;
+    display: flex;
+    justify-content: flex-start;
     font-size: 34px;
     font-weight: bold;
     text-align: start;
     color: var(--black);
-    margin-top: 14px;
     margin-left: 31px;
+    margin-top: 14px;
 }
 
 .total_asset {
     width: 354px;
-    height: 125px;
-    background-color: #31A078;
+    background: linear-gradient(to left bottom, #31A078, #31A05F);
     border-radius: 20px;
     border: none;
-    margin: 0 auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 35px;
+    padding-bottom: 22px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 .asset_text {
-    font-size: 16px;
     color: var(--white);
     margin-left: 30px;
     margin-top: 30px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
 }
 
 .asset_bottom {
@@ -54,14 +63,19 @@ h2 {
 }
 
 .number {
-    font-size: 32px;
     color: var(--white);
     margin-top: 10px;
     margin-left: 30px;
     margin-right: 68px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
 }
 
 .invest_btn {
+    width: fit-content;
+    height: fit-content;
     padding: 11px 34px;
     background-color: var(--white);
     font-size: 14px;
@@ -70,5 +84,161 @@ h2 {
     border-radius: 15px;
     border: none;
     cursor: pointer;
+    margin-right: 10px;
 }
 
+.best_plans {
+    margin-top: 23px;
+}
+
+.plans_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: start;
+    color: var(--black);
+    margin-left: 29px;
+}
+
+.see_all {
+    margin-right: 31px;
+}
+
+.see_btn {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: start;
+    color: var(--red);
+}
+
+.plans_bottom {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.plans_item {
+    width: 134px;
+    height: 170px;
+    border: 0;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.plans_item.first {
+    background-image: url('../../img/png/gold_img.png');
+}
+
+.plans_item.second {
+    background-image: url('../../img/png/silver_img.png');
+}
+
+.plans_item.third {
+    background-image: url('../../img/png/platinum_img.png');
+}
+
+.level {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: var(--white);
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.return {
+    margin-left: 20px;
+    color: var(--white);
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.investment {
+    margin-top: 51px;
+}
+
+.investment h3 {
+    margin-left: 21px;
+}
+
+.guide_item {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    justify-content: space-between;
+}
+
+.guide_left {
+    display: block;
+}
+
+.guide_title {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--titlegray);
+}
+
+.guide_context {
+    font-size: 14px;
+    font-weight: 400;
+    color: #474747;
+}
+
+.guide_item img {
+    width: 61px;
+    height: 61px;
+    margin-right: 34px;
+}
+
+/* 바텀 네비게이션 바 */
+.btm_nav {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    margin-bottom: 18px;
+    transform: translateX(-50%);
+    width: 415px;
+    height: 75px;
+    background-color: #F6F6F9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+}
+
+.select_nav, .unselect_nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.select_nav {
+    color: var(--main);
+}
+
+.unselect_nav {
+    color: var(--gray01);
+}
+
+.btm_nav img {
+    width: 24px;
+    height: 24px;
+}
+
+.nav_name {
+    font-size: 12px;
+    font-weight: 300;
+}
